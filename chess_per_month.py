@@ -151,7 +151,7 @@ for spine in ax.spines.values():
                     
 
 # plot data
-plt.title('Hours of chess per month for /@/%s' % handle )
+plt.title('Hours of chess per month for /@/%s. Total: %d hours.' % (handle, int(tot_time)) )
 plt.plot_date(x, y, linestyle='solid')
 plt.xlabel('Month')
 plt.xticks(rotation=45)

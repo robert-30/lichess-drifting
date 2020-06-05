@@ -156,6 +156,6 @@ plt.plot_date(x, y, linestyle='solid')
 plt.xlabel('Month')
 plt.xticks(rotation=45)
 plt.ylabel('Hours of chess')
-plt.savefig('%s.png' % handle, dpi=200, bbox_inches='tight', figsize=(8, 6))
+plt.savefig('%s.png' % handle, bbox_inches='tight', figsize=(18, 6))
 plt.show()
 
